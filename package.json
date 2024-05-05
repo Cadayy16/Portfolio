@@ -1,0 +1,33 @@
+{
+  "devDependencies": {
+    "sass": "^1.55.0"
+  },
+  "name": "ssss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "binary-extensions": "^2.2.0",
+    "anymatch": "^3.1.2",
+    "braces": "^3.0.2",
+    "chokidar": "^3.5.3",
+    "fill-range": "^7.0.1",
+    "glob-parent": "^5.1.2",
+    "immutable": "^4.1.0",
+    "is-binary-path": "^2.1.0",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "normalize-path": "^3.0.0",
+    "picomatch": "^2.3.1",
+    "source-map-js": "^1.0.2",
+    "readdirp": "^3.6.0",
+    "to-regex-range": "^5.0.1"
+  },
+  "scripts": {
+    "watch-sass": "sass --watch sass/main.scss css/main.css",
+    "build-sass": "sass sass/main.scss css/main.css --style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

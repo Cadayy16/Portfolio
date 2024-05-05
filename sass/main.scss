@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/*
+  ############################################################
+    This file created by NOVEMBROS.
+  ############################################################
+*/
+
+// Responsive
+@import "global/responsive";
+
+// Color
+@import "global/color";
+
+// Variable
+@import "global/variable";
+
+// Fixed Codes
+@import "global/fixed";
+
+// Hover
+@import "global/hover";
+
+// Slick
+@import "global/slick";
+
+// İndex
+@import "global/index";
+
+// Piece
+@import "global/piece";
+
+
+// Static
+@import "static/header";
+
+@import "static/footer";
+
+
+
+
+// Components
+@import "components/header";
+@import "components/contact";
+@import "components/forms";
+@import "components/footer";
