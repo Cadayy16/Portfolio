@@ -9,9 +9,6 @@ menu.onclick = () => {
 }
 
 
-
-
-
 window.onscroll = () => {
   navbar.classList.remove('open-menu')
   menu.classList.remove("move")
@@ -117,7 +114,7 @@ window.addEventListener("scroll", () => {
 
 
 document.body.style.cursor = 'none';
-document.addEventListener('mousemove', function(e) {
+document.addEventListener('mousemove', function (e) {
   var customCursor = document.getElementById('customCursor');
   customCursor.style.left = e.clientX + 'px';
   customCursor.style.top = e.clientY + 'px';
